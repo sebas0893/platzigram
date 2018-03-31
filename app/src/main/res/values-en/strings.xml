@@ -6,4 +6,10 @@
     <string name="dont_have_account">¿Dont have account?,</string>
     <string name="create_here">create one here</string>
     <string name="descripcion_logo">Logo of the application</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_user">User</string>
+    <string name="hint_confirm_password">Confirm password</string>
+    <string name="text_button_createaccount">Join us</string>
+    <string name="toolbar_title_createaccount">Create account</string>
 </resources>
