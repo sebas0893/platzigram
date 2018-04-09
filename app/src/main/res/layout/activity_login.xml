@@ -73,7 +73,7 @@
                     android:id="@+id/login"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:onClick="goCreateAccount"
+                    android:onClick="goContainer"
                     android:text="@string/text_button_login"
                     android:theme="@style/RaisedButtonDark" />
 
