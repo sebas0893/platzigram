@@ -33,7 +33,7 @@ public class HomeFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_home, container, false);
-        showToolBar("Home", false, view);
+        showToolBar(getResources().getString(R.string.tab_home), false, view);
         RecyclerView picturesRecycler = (RecyclerView) view.findViewById(R.id.pictureRecycler);
 
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getContext());
@@ -50,9 +50,9 @@ public class HomeFragment extends Fragment {
 
     public ArrayList<Picture> buildPictures() {
         ArrayList<Picture> pictures = new ArrayList<>();
-        pictures.add(new Picture("https://goo.gl/images/S9BEp7http://www.novalandtours.com/images/guide/guilin.jpg","Elon Musk","4 días", "3"));
-        pictures.add(new Picture("https://i.pinimg.com/originals/7f/35/e1/7f35e1a655e222faec0726e135627048.jpg","Steve Jobs","3 días", "10"));
-        pictures.add(new Picture("https://i.pinimg.com/736x/fb/b4/76/fbb476ddcd47700de52afb86d3889afe--winter-landscape-landscapes.jpg","Bill Gates","2 días", "9"));
+        pictures.add(new Picture("https://goo.gl/images/S9BEp7http://www.novalandtours.com/images/guide/guilin.jpg","Elon Musk","4 días", "3 Me Gusta"));
+        pictures.add(new Picture("https://i.pinimg.com/originals/7f/35/e1/7f35e1a655e222faec0726e135627048.jpg","Steve Jobs","3 días", "10 Me Gusta"));
+        pictures.add(new Picture("https://i.pinimg.com/736x/fb/b4/76/fbb476ddcd47700de52afb86d3889afe--winter-landscape-landscapes.jpg","Bill Gates","2 días", "9 Me Gusta"));
         return  pictures;
     }
 
